@@ -1,0 +1,188 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box; }
+
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+body {
+  font-size: .32rem; }
+
+.wrap {
+  display: flex;
+  flex-direction: column; }
+
+header {
+  width: 100%;
+  height: .88rem;
+  background: #ccc;
+  display: flex;
+  flex-direction: row; }
+  header h2 {
+    width: 25%;
+    height: .88rem;
+    text-align: center;
+    line-height: .88rem; }
+  header p {
+    width: 65%;
+    height: .6rem;
+    line-height: .6rem;
+    background: #fff;
+    margin-top: .1rem;
+    border-radius: 10px;
+    text-indent: 10px; }
+    header p .iconfont {
+      margin-left: 40px; }
+  header input {
+    border: 0; }
+  header .iconfont {
+    font-size: .4rem; }
+  header span {
+    width: 10%;
+    height: .88rem;
+    text-align: center;
+    line-height: .88rem; }
+
+main {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  background: #eee; }
+  main .swiper-container, main .swiper-wrapper {
+    width: 100%;
+    height: 3.3rem; }
+  main .swiper-slide {
+    width: 100%;
+    height: 100%; }
+    main .swiper-slide img {
+      width: 100%;
+      height: 100%; }
+  main .list {
+    width: 100%;
+    height: 1.7rem;
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px;
+    text-align: center;
+    background: #fff; }
+    main .list li {
+      flex: 1; }
+      main .list li p {
+        width: 40px;
+        height: 40px;
+        background: blue;
+        border-radius: 30px;
+        margin: 10px auto;
+        line-height: 40px; }
+        main .list li p .iconfont {
+          color: #fff;
+          font-size: .5rem; }
+      main .list li span {
+        font-size: .3rem; }
+  main section {
+    width: 100%;
+    height: 6rem;
+    margin-top: 10px; }
+    main section .head {
+      width: 100%;
+      height: 1rem;
+      border-bottom: 1px solid #ccc;
+      text-align: center;
+      line-height: 1rem;
+      background: #fff; }
+    main section .content {
+      width: 100%;
+      height: 3.8rem;
+      border: 1px solid red;
+      background: #fff;
+      display: flex;
+      flex-wrap: wrap; }
+      main section .content dl {
+        width: 25%;
+        text-align: center;
+        border: 1px solid #ccc; }
+      main section .content dt {
+        width: 60px;
+        height: 60px;
+        margin: 0 auto; }
+        main section .content dt img {
+          width: 60px;
+          height: 60px;
+          border-radius: 60px; }
+      main section .content .pic {
+        width: 60px;
+        height: 60px;
+        margin: 0 auto;
+        background: orange;
+        border-radius: 60px;
+        line-height: 60px; }
+        main section .content .pic .iconfont {
+          color: #fff;
+          font-size: .6rem; }
+  main .logo {
+    width: 100%;
+    height: 1.2rem;
+    background: #fff;
+    margin-top: 20px;
+    line-height: 1.2rem;
+    text-indent: 5px; }
+    main .logo h3 {
+      display: inline-block; }
+    main .logo span {
+      display: inline-block; }
+  main .cont-Box {
+    width: 100%;
+    height: 5rem;
+    margin-top: 40px; }
+    main .cont-Box .head {
+      width: 100%;
+      height: 1rem;
+      border-bottom: 1px solid #ccc;
+      text-align: center;
+      line-height: 1rem;
+      background: #fff; }
+    main .cont-Box .pic-box {
+      width: 100%;
+      height: 1.6rem; }
+      main .cont-Box .pic-box img {
+        width: 100%;
+        height: 100%; }
+    main .cont-Box .shopping {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap; }
+      main .cont-Box .shopping dl {
+        width: 50%;
+        height: 5.1rem;
+        padding: 5px;
+        background: #fff; }
+        main .cont-Box .shopping dl dt {
+          width: 100%;
+          height: 3.6rem; }
+          main .cont-Box .shopping dl dt img {
+            width: 100%;
+            height: 100%; }
+        main .cont-Box .shopping dl dd {
+          width: 100%;
+          height: 1.9rem; }
+          main .cont-Box .shopping dl dd p {
+            font-size: .26rem;
+            color: #ccc; }
+          main .cont-Box .shopping dl dd span {
+            color: red; }
+
+footer {
+  width: 100%;
+  height: .88rem;
+  background: #ccc; }
+
+/*# sourceMappingURL=style.css.map */
